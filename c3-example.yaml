@@ -1,13 +1,13 @@
 #based on original version, replace IO and ESP32-C3
 substitutions:
-  devicename: climate-mhi
-  mhi_device_id: climate_mhi
-  deviceid: "climate_m"
-  upper_devicename: "Climate-MHI"
+  devicename: climate-mhi-c
+  mhi_device_id: climate_mhi_c
+  deviceid: "climate_m_c"
+  upper_devicename: "Climate-MHI-C"
   brand: "MHI"
-  model_name: "Climate"
+  model_name: "Climate-C"
   # If you encounter mhi_ac_ctrl_core.loop error: -2 errors, change the frame_size to 20
-  frame_size: "33"
+  frame_size: "20"
   
 esphome:
   name: $devicename
